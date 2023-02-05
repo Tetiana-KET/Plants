@@ -1,0 +1,518 @@
+@media screen and (max-width: 1150px) {
+    
+    .welcome-wrap {
+        justify-content: center;
+    }
+    .about-wrap {
+        justify-content: center;
+    }
+    .about-content {
+        justify-content: center;
+    }
+    .contacts-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo-wrap {
+        display: inline-block;
+        order: 3;
+    }
+    .select {
+        margin-bottom: 250px;
+    }
+}
+
+@media screen and (max-width: 1055px) {
+    .services {
+        justify-content: center;
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    
+    .header-wrapper {
+        padding: 35px 23px 35px 18px;
+    }
+
+    .welcome {
+        padding: 32px 20px 70px 20px;
+        margin-bottom: 0px;
+    }
+    .welcome-wrap {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .welcome-img-wrap {
+        max-width: 280px;
+    }
+    .welcome-content {
+        max-width: 346px;
+    }
+    .welcome-title {
+        font-size: 35px;
+        padding-top: 5px;
+        margin-bottom: 30px;
+    }
+    .welcome-text {
+        padding-left: 5px;
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 36px;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        align-items: center;
+    }
+    .about-title {
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .about-text {
+        width: 668px;
+        margin-bottom: 68px; 
+    }
+    .img-about {
+        max-width: 250px;
+    }
+
+    .services {
+        row-gap: 33px;
+        column-gap: 106px;
+    }
+    .services-content {
+        padding: 61px 0 0;
+    }
+    .service-img-wrap {
+        margin-bottom: 10px;
+    }
+    .services-title {
+        padding-left: 20px;
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .service-item {
+        max-width: 281px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 6px;
+    }
+    .fig-title {
+        margin-bottom: 9px;
+    }
+    .fig-text {
+        max-width: 201px;
+        text-align: center;
+        margin-bottom: 19px;
+    }
+
+    .prices-box {
+        max-width: 332px;
+    }
+    .contact-us-box {
+        max-width: 302px;
+        padding: 101px 19px 0 0;
+    }
+    .prices-title {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 28px;
+    }
+    .prices-box_title {
+        font-size: 35px;
+        line-height: 42px;
+        padding-left: 12px;
+        margin-bottom: 58px;
+    }
+    .bg-leaf {
+        padding: 37px 0 128px 22px;
+        background: url(../../assets/icons/leafs_in_prices.svg) 98% 87% no-repeat;
+        margin-bottom: 36px;
+    }
+
+    .contacts-wrap {
+        padding-top: 34px;
+    }
+    .select {
+        padding: 99px 0 0;
+        margin-bottom: 288px;
+        padding-top: 58px;
+    }
+    .city-card {
+        top: 157%;
+    }
+    .adress {
+        margin-bottom: 18px;
+    }
+
+    .photo-wrap {
+        max-width: 200px;
+        margin-right: -19px;
+    }
+
+    .footer-wrap{ 
+        flex-direction: column;
+        align-items: center;
+        line-height: 24px;
+
+    }
+    .footer {
+        padding: 43px 0 0px;
+        margin-top: -10px;
+    }
+    .year-wrap {
+        margin-right: 4px;
+    }
+    .school-wrap {
+        margin-bottom: 27px;
+    }
+    
+}
+
+
+@media screen and (max-width: 730px) {
+    .welcome-wrap {
+        justify-content: center;
+    }
+    .about-text {
+       width: 90%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .bg-leaf {
+        background: #fff;
+        justify-content: center;
+    }
+    .prices-items {
+        width: 98%;
+    }
+    .select-wrap {
+        width: 100%;
+    }
+    .select {
+        width: 100%;
+        margin-bottom: 300px;
+    }
+    .details {
+        background: var(--bg-section) url(../../assets/icons/accordion_btn.svg) 93% 51% no-repeat;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .container_1440 {
+        padding: 0 5px;
+    }
+    .header-wrapper {
+        padding: 27px 20px 35px 18px;
+        justify-content: space-between;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .header-nav-mobile {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        width: 100%;
+        height: 340px;
+        background-color: #D6E7D2;
+        z-index: 11;
+        padding: 10px 0px 0px 10px;
+        transform: translateX(100%);
+        transition: 0.5s all linear;
+    }
+
+    .nav-mobile-active {
+        transform: translateX(0);
+    }
+
+    .header-nav-mobile .header-menu {
+        padding-top: 19px;
+    } 
+
+    .header-nav-mobile .header-menu .header-menu-item {
+        margin-bottom: 10px;
+        color: var(--black-color);
+        transition: all .5s;
+    }
+
+    .header-nav-mobile .header-menu .header-menu-item:hover {
+        color: var(--green-color);
+        font-weight: 700;
+    }
+
+    .logo-wrap-burger {
+        display: block;
+        padding-left: 22px;
+        padding-top: 23px;
+        background: url(../../assets/icons/logo_vector.svg) 0px 20px no-repeat;  
+        line-height: 21px;
+        color: var(--black-color);
+        transition: .5s;
+    }
+    .logo-wrap-burger:hover {
+        color: var(--green-color);
+        font-weight: 700;
+    }
+    .header-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 10px;
+    }
+    .header-menu-item:nth-child(5) {
+        margin-right: 47px;
+    }
+    .close-menu {
+        display: block;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 12;
+    }
+    .close-line-x {
+        display: block;
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        z-index: 13;
+        background:var(--green-color);
+        transition: .5s;
+    }
+    .close-line-x:first-child {
+        transform: translateY(-50%) rotate(45deg);
+    }
+    .close-line-x:last-child {
+        transform: translateY(-50%) rotate(-45deg);
+    }
+    .close-menu:hover .close-line-x {
+        height: 3px;
+        cursor: pointer;
+    }
+
+    .header-burger {
+        display: block;
+    }
+
+    /* OVERLAY */
+    .nav-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 9;
+        background-color: rgba(237, 242, 236, 0.9);
+    }
+    .overlay-active {
+        display: block;
+    }
+
+    .welcome {
+        padding: 21px 20px 24px 20px;
+    }
+    .welcome-img-wrap {
+        display: none;
+    }
+    .welcome-title {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+    .welcome-text {
+        padding-left: 0;
+        margin-bottom: 25px;
+    }
+    .welcome-button {
+        width: 100px;
+        height: 34px;
+        font-size: 10px;
+    }
+
+    .about {
+        margin-bottom: 19px;
+    }
+    .about-content {
+        padding-top: 30px;
+    }
+    .about-title {
+        font-size: 25px;
+        line-height: 33px;
+        margin-bottom: 13px;
+    }
+    .about-text  {
+        font-size: 15px;
+        line-height: 25px;
+        width: 89%;
+        margin-bottom: 0;
+    }
+    .img-about {
+        max-width: 150px;
+    }
+
+    .services-content {
+        padding: 30px 0 0;
+    }
+    .services-title {
+        font-size: 25px;
+        line-height: 33px;
+        margin-bottom: 35px;
+    }
+    .services-btns-wrap {
+        padding-left: 20px;
+        margin-bottom: 30px;
+    }
+    .button {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        margin: 0 10px 9px 0;
+    }
+    .services {
+        row-gap: 27px;
+        margin-bottom: 21px;
+    }
+    .services:nth-child(2) h3 {
+        margin-bottom: 11px;
+    }
+
+    .bg-leaf {
+        padding: 28px 0 20px 5px;
+        margin-bottom: 20px;
+    }
+    .prices-items {
+        height: 235px;
+        padding: 0 22px;
+    }
+    .details {
+        background: var(--bg-section) url(../../assets/icons/accordion_btn.svg) 76% 56% no-repeat;
+    }
+    details[open] {
+        width: 180px;
+        padding: 5px 13px 7px;
+        background: #D6E7D2 url(../../assets/icons/accordion_btn_cl.svg) 74% 6% no-repeat;
+        border-radius: 20px;
+    }
+    .summary {
+        width: 89px;
+        font-size: 15px;
+        padding: 16px 61px 16px 30px;
+    }
+    details[open] .summary {
+        padding: 0;
+        margin-bottom: 3px;
+    }
+    .more-details {
+        font-weight: 300;
+        font-size: 9px;
+        line-height: 10px;
+        color: var(--light-grey-color);
+        margin-bottom: 0;
+    }
+    .more-details::before {
+        width: 151px;
+    }
+    .sum {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .order-btn {
+        padding-left: 17px;
+        width: 57px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .contact-us-box {
+        padding: 20px 5px 0 0;
+        align-items: center;
+    }
+    .prices-title {
+        max-width: 230px;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .prices-box_title {
+        font-size: 25px;
+        line-height: 30px;
+        padding-left: 0;
+        padding-right: 5px;
+        text-align: center;
+        margin-bottom: 38px;
+    }
+    .contact_btn {
+        margin: 0;
+    }
+
+    .photo-wrap img {
+        margin-bottom: -7px;
+    }
+
+    .contacts-wrap {
+        padding-top: 15px;
+    }
+    .contacts-title {
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .select {
+        width: 81%;
+        padding-top: 42px;
+        margin-bottom: 167px;
+    }
+    .city-card {
+        top: 151%;
+        width: 94%;
+        left: 3%;
+        padding: 25px 10px 18px 35px;
+    }
+    .title {
+        margin-right: 12%;
+    }
+    .phone-title {
+        margin-right: 3%;
+    }
+    .adress-title {
+        margin-right: 2%;
+        width: 69px;
+        line-height: 21px;
+    }
+    .adress-value {
+        width: 130px;
+        line-height: 21px;
+    
+    }
+
+    .photo-wrap {
+        max-width: 100px;
+        margin-right: 4px;
+    }
+    .footer {
+        padding: 22px 0 10px;
+        margin-top: -1px;
+    }
+    .school-wrap {
+        margin-bottom: 15px;
+    }
+    .social-wrap {
+        margin-bottom: 0px;
+    }
+}
